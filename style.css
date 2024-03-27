@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%) ;
+}
+/* Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%) */
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 54px 54px 54px 54px;
+}
+
+.foto-perfume img{
+    width: 355px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.direita{
+    /* background-color: brown; */
+    width: 355px;
+    height: 532.5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.infos{
+    /* background-color: aqua;  */
+    margin: 10%;
+    text-align: left;
+    
+}
+
+.preco{
+    display: flex;
+    gap: 30px;
+}
+
+#Perfume{
+    font-family: Montserrat;
+    font-weight: 500, 700;
+    font-size: 15px;
+    color: gray;
+}
+
+#Gabrielle{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0px;
+    margin-bottom: 34.95px;
+}
+
+#text{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 17px;
+    color: gray;
+}
+
+.preco{
+    align-items: center;
+}
+
+#novo{
+    color: green;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-family: Fraunces;
+}
+
+#velho{
+    color: grey;
+    text-decoration: line-through;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-family: Fraunces;
+}
+
+#butao{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 55px;
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao img{
+    margin-right: 7px;
+}
